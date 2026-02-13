@@ -6,8 +6,6 @@ import { initRender } from "./render-functions";
 import Pagination from "./pagination";
 import type { PixabayResponse } from "./types/pixabay";
 
-
-
 const pagination = new Pagination();
 let query: string = "";
 
